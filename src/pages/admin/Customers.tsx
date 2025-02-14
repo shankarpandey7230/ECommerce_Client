@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import AdminSidebar from "../../components/admin/AdminSidebar";
 
 const Customers = () => {
   return (
-    <div>
-      
+    <div className="admin-container">
+      {/* Sidebar */}
+      <AdminSidebar />
+      {/* MAin */}
+      <main></main>
     </div>
-  )
-}
+  );
+};
 
-export default Customers
+export default Customers;
